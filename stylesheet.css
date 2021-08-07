@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* *{
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+} */
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+}
+h1{
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 30px 0;
+    font-size:35px;
+
+}
+button{
+    background:hsl(0, 0%, 95%);
+    color:rgba(0, 0, 0, 0.5);
+    padding: 14px 30px;
+    border-radius: 25px;
+    border: none;
+    margin: 70px 0 30px 0;
+}
+.main button:hover{
+    color:hsl(0, 0%, 95%);
+    background: transparent;
+    border: hsl(0, 0%, 95%) solid 2px;
+    padding: 12px 28px;
+    cursor: pointer;
+}
+.main{
+    padding: 20px 41px;
+}
+.left{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0px 0px 8px;
+}
+.left button{
+    color: hsl(31, 77%, 52%);
+}
+.middle{
+    background: hsl(184, 100%, 22%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.middle button{
+    color: hsl(184, 100%, 22%);
+}
+.right{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0px;
+}
+.right button{
+    color: hsl(179, 100%, 13%);
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+    line-height: 1.4rem;
+}
+    body>.container{
+        display: flex;
+        width: 68%;
+        justify-content: center;
+        position: relative;
+        top: 65px;
+        padding: 20px;
+    }
+@media screen and (max-width: 1000px){
+    body>.container{
+        width: 80%;
+    }
+    button{
+        padding: 18px 35px;
+        margin: 20px 0;
+    }
+    .main button:hover{
+        padding: 16px 33px;
+    }
+}
+@media screen and (max-width: 800px) {
+    body>.container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .main{
+        padding: 20px 41px;
+    }
+    .left{
+        border-radius: 8px 8px 0px 0px;
+    }
+    .right{
+        border-radius: 0px 0px 8px 8px;
+    }
+    button{
+        padding: 18px 35px;
+        margin: 20px 0;
+    }
+    .main button:hover{
+        padding: 16px 33px;
+    }
+}
+@media screen and (max-width: 375px) {
+    body>.container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
